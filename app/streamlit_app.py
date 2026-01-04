@@ -38,9 +38,9 @@ st.set_page_config(
 @st.cache_resource
 def load_models():
     """Load ensemble model and neural network (cached for performance)"""
-    with open('../models/ensemble_model.pkl', 'rb') as f:
+    with open('/models/ensemble_model.pkl', 'rb') as f:
         ensemble = pickle.load(f)
-    nn_model = load_model('../models/nn_model.h5')
+    nn_model = load_model('/models/nn_model.h5')
     return ensemble, nn_model
 
 ensemble, nn_model = load_models()
