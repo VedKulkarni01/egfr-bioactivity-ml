@@ -223,8 +223,8 @@ egfr-bioactivity-ml/
 
 ## 📚 References
 
-1. ChEMBL Database: https://www.ebi.ac.uk/chembl/
-2. RDKit Cheminformatics: https://www.rdkit.org/
+1. ChEMBL Database: https://www.ebi.ac.uk/chembl
+2. RDKit Cheminformatics: https://www.rdkit.org
 3. Lipinski's Rule of Five: Lipinski et al. (1997) Adv Drug Deliv Rev
 4. EGFR Inhibitors Review: Gazdar (2009) Oncogene
 
@@ -234,8 +234,8 @@ egfr-bioactivity-ml/
 
 **Vedant Kulkarni and Haozhe Zhao**  
 Bioinformatics MS, Northeastern University  
-Email: kulkarni.vedan@northeastern.edu , zhao.haozh@northeastern.edu
-LinkedIn: www.linkedin.com/in/ved-kulk , https://www.linkedin.com/in/haozhe-zhao/  
+Email: kulkarni.vedan@northeastern.edu , zhao.haozh@northeastern.edu\
+LinkedIn: www.linkedin.com/in/ved-kulk , https://www.linkedin.com/in/haozhe-zhao  
 
 ---
 
