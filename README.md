@@ -11,7 +11,7 @@ An end-to-end machine learning pipeline to predict small molecule bioactivity ag
 
 **Model Performance:** 94.54% ROC-AUC  
 **Dataset:** 20,033 compounds from ChEMBL database  
-**Deployment:** Interactive Streamlit web application
+**Deployment:** Interactive Streamlit web application: https://egfr-bioactivity-ml.streamlit.app/
 
 ---
 
