@@ -27,7 +27,7 @@ import base64
 # ============================================================================
 st.set_page_config(
     page_title="EGFR Bioactivity Predictor",
-    page_icon="💊",
+    page_icon=":pill:",
     layout="wide",
     initial_sidebar_state="expanded"
 )
