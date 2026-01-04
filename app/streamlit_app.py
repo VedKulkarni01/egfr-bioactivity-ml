@@ -27,7 +27,7 @@ import base64
 # ============================================================================
 st.set_page_config(
     page_title="EGFR Bioactivity Predictor",
-    page_icon=":pill:",
+    page_icon="💊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -131,7 +131,6 @@ def check_lipinski(descriptors):
 # SIDEBAR
 # ============================================================================
 with st.sidebar:
-    st.image("💊", width=80)
     st.title("EGFR Predictor")
     st.markdown("---")
     
