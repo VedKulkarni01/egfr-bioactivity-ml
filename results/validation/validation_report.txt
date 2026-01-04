@@ -1,0 +1,29 @@
+
+EGFR BIOACTIVITY PREDICTION MODEL - VALIDATION REPORT
+=====================================================
+
+Model Performance:
+- ROC-AUC: 0.9454
+- Ensemble: 70% RF + 15% XGB + 15% NN
+
+Known Drug Validation:
+- FDA-Approved EGFR Inhibitors Tested: 4
+- Correctly Predicted as Active: 4/4 (100%)
+
+Known Inactive Compounds:
+- Compounds Tested: 4
+- Correctly Predicted as Inactive: 4/4 (100%)
+
+Individual Drug Results:
+  drug_name     generation  actual_ic50_nm prediction  probability
+  Erlotinib 1st generation             2.0     Active     0.991954
+  Gefitinib 1st generation            33.0     Active     0.895627
+Osimertinib 3rd generation            12.0     Active     0.939573
+   Afatinib 2nd generation             0.5     Active     0.994993
+
+Model Reliability: EXCELLENT
+- All FDA-approved drugs correctly identified
+- High confidence predictions (>90% for most)
+- Good specificity (correctly rejects non-EGFR drugs)
+
+Recommendation: Model is ready for production deployment
