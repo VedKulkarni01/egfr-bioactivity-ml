@@ -135,6 +135,8 @@ smiles = "n1cnc(c2cc(c(cc12)OCCOC)OCCOC)Nc1cc(ccc1)C#C"  # Erlotinib
 ```
 egfr-bioactivity-ml/
 ├── README.md
+├── PROJECT_SUMMARY.md
+├── environment.yml
 ├── requirements.txt
 ├── app/
 │   └── streamlit_app.py      # Web application
