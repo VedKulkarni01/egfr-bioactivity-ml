@@ -136,26 +136,22 @@ smiles = "n1cnc(c2cc(c(cc12)OCCOC)OCCOC)Nc1cc(ccc1)C#C"  # Erlotinib
 egfr-bioactivity-ml/
 ├── README.md
 ├── requirements.txt
-├── streamlit_app.py          # Web application
+├── app/
+│   └── streamlit_app.py      # Web application
 ├── data/
 │   ├── raw/                  # ChEMBL data
 │   └── processed/            # Processed with descriptors
-├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_validation.ipynb
+├── EGFR.ipynb
 ├── models/
 │   ├── ensemble_model.pkl    # Weighted ensemble
 │   ├── nn_model.h5           # Neural network
 │   ├── rf_best.pkl           # Random Forest
 │   ├── xgb_model.pkl         # XGBoost
 │   └── scaler.pkl            # Feature scaler
-├── results/
-│   ├── figures/              # Visualizations
-│   └── validation/           # Validation reports
-└── src/
-    └── ensemble_predictor.py # Prediction utilities
+└── results/
+    ├── figures/              # Visualizations
+    ├── metrics/              # Performance results
+    └── validation/           # Validation reports
 ```
 
 ---
