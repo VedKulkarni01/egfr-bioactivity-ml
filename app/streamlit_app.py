@@ -7,7 +7,7 @@ Built with Streamlit - Industry standard for internal pharma tools
 Model: Weighted Ensemble (70% RF + 15% XGB + 15% NN)
 Performance: 94.54% ROC-AUC
 
-Author: Vedant Kulkarni
+Author: Vedant Kulkarni, Haozhe Zhao
 Northeastern University - Bioinformatics MS
 """
 
@@ -165,7 +165,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### ℹ️ About")
     st.caption("""
-    **Created by:** Vedant Kulkarni  
+    **Created by:** Vedant Kulkarni, Haozhe Zhao 
     **Institution:** Northeastern University  
     **Program:** Bioinformatics MS  
     **Target:** EGFR (Cancer Therapy)
@@ -462,7 +462,7 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray;'>
     <p><strong>EGFR Bioactivity Prediction Tool</strong></p>
-    <p>Created by Vedant Kulkarni | Northeastern University | Bioinformatics MS</p>
+    <p>Created by Vedant Kulkarni, Haozhe Zhao | Northeastern University | Bioinformatics MS</p>
     <p>⚠️ For research purposes only. Predictions should be validated experimentally.</p>
 </div>
 """, unsafe_allow_html=True)
