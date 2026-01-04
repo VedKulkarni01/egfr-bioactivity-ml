@@ -131,7 +131,7 @@ def check_lipinski(descriptors):
 # SIDEBAR
 # ============================================================================
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/000000/molecule.png", width=80)
+    st.image("💊", width=80)
     st.title("EGFR Predictor")
     st.markdown("---")
     
