@@ -17,7 +17,7 @@ An end-to-end machine learning pipeline to predict small molecule bioactivity ag
 **Deployed**: Streamlit Cloud
 
 ## Screenshots
-<img width="1908" height="967" alt="Screenshot 2026-01-04 at 4 57 58 PM" src="https://github.com/user-attachments/assets/6e25f706-a8f2-417a-8652-73cbd6d3c8b9" />
+<img width="2850" height="1350" alt="image" src="https://github.com/user-attachments/assets/eb7baa2f-16c1-464c-9eba-5606f0b6ab68" />
 
 ---
 
