@@ -5,13 +5,19 @@
 [![RDKit](https://img.shields.io/badge/RDKit-2025.03-green.svg)](https://www.rdkit.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+🌐 **[Try the Live App!](https://egfr-bioactivity-ml.streamlit.app/)**
+
 ## 🎯 Project Overview
 
 An end-to-end machine learning pipeline to predict small molecule bioactivity against **EGFR** (Epidermal Growth Factor Receptor), a critical target in cancer therapy. This project demonstrates the application of ensemble learning and cheminformatics for drug discovery.
 
 **Model Performance:** 94.54% ROC-AUC  
 **Dataset:** 20,033 compounds from ChEMBL database  
-**Deployment:** Interactive Streamlit web application: https://egfr-bioactivity-ml.streamlit.app
+**Validated**: 100% accuracy on FDA-approved drugs
+**Deployed**: Streamlit Cloud
+
+## Screenshots
+<img width="1908" height="967" alt="Screenshot 2026-01-04 at 4 57 58 PM" src="https://github.com/user-attachments/assets/6e25f706-a8f2-417a-8652-73cbd6d3c8b9" />
 
 ---
 
