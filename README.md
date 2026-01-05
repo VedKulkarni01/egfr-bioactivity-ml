@@ -14,7 +14,6 @@ An end-to-end machine learning pipeline to predict small molecule bioactivity ag
 **Model Performance:** 94.54% ROC-AUC  
 **Dataset:** 20,033 compounds from ChEMBL database  
 **Validated**: 100% accuracy on FDA-approved drugs
-**Deployed**: Streamlit Cloud
 
 ## Screenshots
 <img width="2850" height="1350" alt="image" src="https://github.com/user-attachments/assets/eb7baa2f-16c1-464c-9eba-5606f0b6ab68" />
